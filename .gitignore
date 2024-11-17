@@ -11,11 +11,15 @@
 *.kicad_prl
 *.sch-bak
 *~
+~*.lck
 *_autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+fp-lib-table
+\#auto_saved_files\#
+sym-lib-table
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -33,3 +37,7 @@ fp-info-cache
 
 pcb/jlcpcb/gerber
 pcb/jlcpcb/assembly
+pcb/production
+pcb/bom
+pcb/KCH_panel.kicad*
+pcb/fabrication-toolkit-options.json
